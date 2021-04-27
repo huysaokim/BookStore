@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Contact Manager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/Scripts/moment.js"></script>
+
+    <script>import moment from 'moment';</script>
+    <script>
+
+        new Vue({
+            el: '#contacts',
+            data: {
+                contacts: [],
+            },
+            mounted: function () {
+                axios.get('/Manager/ContactJson')
+                    .then(response => {
+                        this.contacts = response.data;
+                        console.log(this.contacts);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    })
+            },
+            methods: {
+                format_date(value) {
+                    if (value) {
+                        return moment(String(value)).format('MMMM Do YYYY, h: mm: ss a')
+                    }
+                },
+            }
+        })
+    </script>
+}
+
+<div class="hero-wrap hero-bread" style="background-image: url('/Content/Design Images/bg_6.jpg');">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9  text-center">
+                <h1 class="mb-0 bread">Contact Manager</h1>
+                <p class="breadcrumbs">
+                    <span class="mr-4"><a class="link-active" href="">Contact Manager</a></span>
+                    <span class="mr-4"><a href="/Manager/StaffBillManager">Bill Manager</a></span>
+                    <span class="mr-4"><a class="" href="/Products/UploadProduct">Upload Product</a></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="contacts" class="ftco-section ftco-degree-bg">
+    <div class="container">
+        <div class="col-lg-12 order-lg-last bg-light">
+            <div class="row">
+                <div v-for="contact in contacts" class="col-md-12 d-flex py-lg-3 px-lg-4">
+                    <div class="blog-entry align-self-stretch d-md-flex">
+                        <div class="text d-block pl-md-4">
+                            <div class="meta mb-3">
+                                <div>{{format_date(contact.date)}}</div>
+                                <div>{{contact.Account.userName}}</div>
+                            </div>
+                            <h3 class="heading">
+                                {{contact.subject}}
+                            </h3>
+                            <p>
+                                {{contact.content}}
+                            </p>
+                            <div class="row">
+                                <a v-if="contact.status == false" v-bind:href="'/Manager/ReplyContact?contactId=' + contact.contactid" class="btn btn-primary btn-evaluate py-2 px-5">Reply</a>
+                                <a v-else href="#" class="link-active btn btn-secondary btn-evaluate py-2 px-3">Responded</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- .col-md-12 -->
+    </div>
+</section> <!-- .section -->

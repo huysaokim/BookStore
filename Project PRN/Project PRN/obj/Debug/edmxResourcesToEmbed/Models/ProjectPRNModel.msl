@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjectPRNModelStoreContainer" CdmEntityContainer="ProjectPRNEntities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="ProjectPRNModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="ProjectPRNModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="categoriesID" ColumnName="categoriesID" />
+          <ScalarProperty Name="categoriesName" ColumnName="categoriesName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Evaluates">
+      <EntityTypeMapping TypeName="ProjectPRNModel.Evaluate">
+        <MappingFragment StoreEntitySet="Evaluate">
+          <ScalarProperty Name="evaluateID" ColumnName="evaluateID" />
+          <ScalarProperty Name="evaluateContent" ColumnName="evaluateContent" />
+          <ScalarProperty Name="rate" ColumnName="rate" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="productID" ColumnName="productID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="ProjectPRNModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="productID" ColumnName="productID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="shortDescription" ColumnName="shortDescription" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="sold" ColumnName="sold" />
+          <ScalarProperty Name="postTime" ColumnName="postTime" />
+          <ScalarProperty Name="categoriesID" ColumnName="categoriesID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bills">
+      <EntityTypeMapping TypeName="ProjectPRNModel.Bill">
+        <MappingFragment StoreEntitySet="Bill">
+          <ScalarProperty Name="BillID" ColumnName="BillID" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="orderTime" ColumnName="orderTime" />
+          <ScalarProperty Name="payment" ColumnName="payment" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Carts">
+      <EntityTypeMapping TypeName="ProjectPRNModel.Cart">
+        <MappingFragment StoreEntitySet="Cart">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="ProjectPRNModel.Contact">
+        <MappingFragment StoreEntitySet="Contact">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

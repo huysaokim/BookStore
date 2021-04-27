@@ -1,0 +1,529 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/Scripts/axios.js"></script>
+
+    <script>
+        var app1 = new Vue({
+            el: '#productsRate',
+            data: {
+                productsRate: [],
+            },
+            mounted: function () {
+                axios.get('/Products/HomeRateProductJson',)
+                    .then(response => {
+                        this.productsRate = response.data;
+                        console.log(this.productsRate);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    })
+            },
+            methods: {
+                addToCart(productID) {
+                    axios.get('/Carts/AddToCart', {
+                        params: {
+                            productID: productID,
+                            quantity: 1,
+                        }
+                    })
+                        .then(response => {
+                            console.log(response.data)
+                            alert(response.data)
+                        })
+                        .catch(error => {
+                            console.log(error);
+                        })
+                },
+                buyNow(productID) {
+                    axios.get('/Carts/AddToCart', {
+                        params: {
+                            productID: productID,
+                            quantity: 1,
+                        }
+                    })
+                        .then(response => {
+                            console.log(response.data)
+                            if (response.data.type == 1) {
+                                Swal.fire({
+                                    position: 'Center',
+                                    icon: 'success',
+                                    title: response.data.message,
+                                    showConfirmButton: false,
+                                    timer: 1000
+                                })
+                                setTimeout(function () {
+                                    window.location.href = '/Carts/Cart'
+                                }, 2000);
+                            } else {
+                                Swal.fire({
+                                    position: 'Center',
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: response.data.message,
+                                })
+                            }
+                        })
+                        .catch(error => {
+                            console.log(error);
+                        })
+                }
+            }
+        })
+        var app2 = new Vue({
+            el: '#productNew',
+            data: {
+                products: [],
+            },
+            mounted: function () {
+                axios.get('/Products/HomeProductJson',)
+                    .then(response => {
+                        this.products = response.data;
+                        console.log(this.products);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    })
+            },
+            methods: {
+                addToCart(productID) {
+                    axios.get('/Carts/AddToCart', {
+                        params: {
+                            productID: productID,
+                            quantity: 1,
+                        }
+                    })
+                        .then(response => {
+                            console.log(response.data)
+                            alert(response.data)
+                        })
+                        .catch(error => {
+                            console.log(error);
+                        })
+                },
+                buyNow(productID) {
+                    axios.get('/Carts/AddToCart', {
+                        params: {
+                            productID: productID,
+                            quantity: 1,
+                        }
+                    })
+                        .then(response => {
+                            console.log(response.data)
+                            if (response.data.type == 1) {
+                                Swal.fire({
+                                    position: 'Center',
+                                    icon: 'success',
+                                    title: response.data.message,
+                                    showConfirmButton: false,
+                                    timer: 1000
+                                })
+                                setTimeout(function () {
+                                    window.location.href = '/Carts/Cart'
+                                }, 2000);
+                            } else {
+                                Swal.fire({
+                                    position: 'Center',
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: response.data.message,
+                                })
+                            }
+                        })
+                        .catch(error => {
+                            console.log(error);
+                        })
+                }
+            }
+        })
+    </script>
+}
+
+<section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+        <div class="slider-item js-fullheight">
+            <div class="overlay"></div>
+            <div class="container-fluid p-0">
+                <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-end"
+                     data-scrollax-parent="true">
+                    <img class="one-third order-md-last img-fluid" src="~/Content/Design Images/2.png" />
+                    <div class="one-forth d-flex align-items-center ftco-animate"
+                         data-scrollax=" properties: { translateY: '70%' }">
+                        <div class="text">
+                            <span class="subheading">#New Arrival</span>
+                            <div class="horizontal">
+                                <h1 class="mb-4 mt-3">FEATURED BOOKS OF THE APRIL</h1>
+                                <p class="mb-4">
+                                    Paris Story highlights the Eiffel Tower, the Louvre, Notre Dame de Paris, Arc de Triomphe, Place de la Concorde, the Seine River, and more.
+
+                                </p>
+
+                                <p><a href="/Products/Product" class="btn-custom">Discover Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-item js-fullheight">
+            <div class="overlay"></div>
+            <div class="container-fluid p-0">
+                <div class="row d-flex no-gutters slider-text align-items-center justify-content-end"
+                     data-scrollax-parent="true">
+                    <img class="one-third order-md-last img-fluid  " src="~/Content/Design Images/4.png" alt="">
+                    <div class="one-forth d-flex align-items-center ftco-animate"
+                         data-scrollax=" properties: { translateY: '70%' }">
+                        <div class="text">
+                            <span class="subheading">#New Arrival</span>
+                            <div class="horizontal">
+                                <h1 class="mb-4 mt-3">We Love literature</h1>
+                                <p class="mb-4">
+                                    A pulse-pounding tale with the outcome ever in doubt. You won't be able to put PUSH BACK down.
+                                </p>
+
+                                <p><a href="#" class="btn-custom">Discover Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+    <div class="container">
+        <div class="row no-gutters ftco-services">
+            <div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services p-4 py-md-5">
+                    <div class="icon d-flex justify-content-center align-items-center mb-4">
+                        <span class="flaticon-bag"></span>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading">Free Shipping</h3>
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services p-4 py-md-5">
+                    <div class="icon d-flex justify-content-center align-items-center mb-4">
+                        <span class="flaticon-customer-service"></span>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading">Support Customer</h3>
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services p-4 py-md-5">
+                    <div class="icon d-flex justify-content-center align-items-center mb-4">
+                        <span class="flaticon-payment-security"></span>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading">Secure Payments</h3>
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-3 pb-3">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <h2 class="mb-4">New Books Arrival</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+        </div>
+    </div>
+    <div id="productNew" class="container">
+        <div class="row">
+            <div v-for="p in products" class="col-sm-12 col-md-6 col-lg-3  d-flex">
+                <div class="product d-flex flex-column">
+                    <a v-bind:href="'/Products/ProductDetail?productID=' + p.productID" class="img-prod">
+                        <img class="img-fluid" v-bind:src="p.image"
+                             alt="Colorlib Template">
+                        <div class="overlay"></div>
+                    </a>
+                    <div class="text py-3 pb-4 px-3">
+                        <div class="d-flex">
+                            <div class="cat">
+                                <span>{{p.Category.categoriesName}}</span>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right mb-0">
+                                    <span v-for="i in p.rate" class="ion-ios-star-outline rate-active"></span>
+                                    <span v-for="i in (5 - p.rate)" class="ion-ios-star-outline"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3><a v-bind:href="'/Products/ProductDetail?productID=' + p.productID">{{p.title}}</a></h3>
+                        <div class="pricing">
+                            <p class="price"><span>$ {{p.price}}</span></p>
+                        </div>
+                        @if (Session["user"] != null) {
+                            if (Session["role"].ToString().Equals("2")) {
+                                <p class="bottom-area d-flex px-3">
+
+                                    <button v-on:click="addToCart(p.productID)" class="add-to-cart text-center py-2 mr-1">
+                                        <span>
+                                            Add to cart <i class="ion-ios-add ml-1"></i>
+                                        </span>
+                                    </button>
+                                    <button v-on:click="buyNow(p.productID)" class="buy-now text-center py-2">
+                                        Buy now<span>
+                                            <i class="ion-ios-cart ml-1"></i>
+                                        </span>
+                                    </button>
+                                </p>
+
+                            } else {
+                                <p class="bottom-area d-block px-3 text-center">
+                                    <a v-bind:href="'/Products/Edit?productID='+p.productID" class="add-to-cart text-center py-2 mr-1 col-11">
+                                        <span>
+                                            Edit this product <i class="ion-ios-add ml-1"></i>
+                                        </span>
+                                    </a>
+                                </p>
+                            }
+                        } else {
+                            <p class="bottom-area d-flex px-3">
+                                <button v-on:click="addToCart(p.productID)" class="add-to-cart text-center py-2 mr-1">
+                                    <span>
+                                        Add to cart <i class="ion-ios-add ml-1"></i>
+                                    </span>
+                                </button>
+                                <button v-on:click="buyNow(p.productID)" class="buy-now text-center py-2">
+                                    Buy now<span>
+                                        <i class="ion-ios-cart ml-1"></i>
+                                    </span>
+                                </button>
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-3 pb-3">
+            <div class="col-md-12 heading-section text-center ">
+                <h2 class="mb-4">High Rating Books</h2>
+                <p>The highest rated books on AnhEm18 Store</p>
+            </div>
+        </div>
+    </div>
+    <div id="productsRate" class="container">
+        <div class="row">
+            <div v-for="p in productsRate" class="col-sm-12 col-md-6 col-lg-3  d-flex">
+                <div class="product d-flex flex-column">
+                    <a v-bind:href="'/Products/ProductDetail?productID=' + p.productID" class="img-prod">
+                        <img class="img-fluid" v-bind:src="p.image"
+                             alt="Colorlib Template">
+                        <div class="overlay"></div>
+                    </a>
+                    <div class="text py-3 pb-4 px-3">
+                        <div class="d-flex">
+                            <div class="cat">
+                                <span>{{p.Category.categoriesName}}</span>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right mb-0">
+                                    <span v-for="i in p.rate" class="ion-ios-star-outline rate-active"></span>
+                                    <span v-for="i in (5 - p.rate)" class="ion-ios-star-outline"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <h3><a v-bind:href="'/Products/ProductDetail?productID=' + p.productID">{{p.title}}</a></h3>
+                        <div class="pricing">
+                            <p class="price"><span>$ {{p.price}}</span></p>
+                        </div>
+                        @if (Session["user"] != null) {
+                            if (Session["role"].ToString().Equals("2")) {
+                                <p class="bottom-area d-flex px-3">
+
+                                    <button v-on:click="addToCart(p.productID)" class="add-to-cart text-center py-2 mr-1">
+                                        <span>
+                                            Add to cart <i class="ion-ios-add ml-1"></i>
+                                        </span>
+                                    </button>
+                                    <button v-on:click="buyNow(p.productID)" class="buy-now text-center py-2">
+                                        Buy now<span>
+                                            <i class="ion-ios-cart ml-1"></i>
+                                        </span>
+                                    </button>
+                                </p>
+
+                            } else {
+                                <p class="bottom-area d-block px-3 text-center">
+                                    <a v-bind:href="'/Products/Edit?productID='+p.productID" class="add-to-cart text-center py-2 mr-1 col-11">
+                                        <span>
+                                            Edit this product <i class="ion-ios-add ml-1"></i>
+                                        </span>
+                                    </a>
+                                </p>
+                            }
+                        } else {
+                            <p class="bottom-area d-flex px-3">
+                                <button v-on:click="addToCart(p.productID)" class="add-to-cart text-center py-2 mr-1">
+                                    <span>
+                                        Add to cart <i class="ion-ios-add ml-1"></i>
+                                    </span>
+                                </button>
+                                <button v-on:click="buyNow(p.productID)" class="buy-now text-center py-2">
+                                    Buy now<span>
+                                        <i class="ion-ios-cart ml-1"></i>
+                                    </span>
+                                </button>
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section testimony-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="services-flow">
+                    <div class="services-2 p-4 d-flex ftco-animate">
+                        <div class="icon">
+                            <span class="flaticon-bag"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Free Shipping</h3>
+                            <p class="mb-0">Separated they live in. A small river named Duden flows</p>
+                        </div>
+                    </div>
+                    <div class="services-2 p-4 d-flex ftco-animate">
+                        <div class="icon">
+                            <span class="flaticon-heart-box"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Valuable Gifts</h3>
+                            <p class="mb-0">Separated they live in. A small river named Duden flows</p>
+                        </div>
+                    </div>
+                    <div class="services-2 p-4 d-flex ftco-animate">
+                        <div class="icon">
+                            <span class="flaticon-payment-security"></span>
+                        </div>
+                        <div class="text">
+                            <h3>All Day Support</h3>
+                            <p class="mb-0">Separated they live in. A small river named Duden flows</p>
+                        </div>
+                    </div>
+                    <div class="services-2 p-4 d-flex ftco-animate">
+                        <div class="icon">
+                            <span class="flaticon-customer-service"></span>
+                        </div>
+                        <div class="text">
+                            <h3>All Day Support</h3>
+                            <p class="mb-0">Separated they live in. A small river named Duden flows</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="heading-section ftco-animate mb-5">
+                    <h2 class="mb-4">Our satisfied customer says</h2>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there live the blind texts. Separated they live in
+                    </p>
+                </div>
+                <div class="carousel-testimony owl-carousel">
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="user-img mb-4" style=" background-image: url('/Content/Design Images/hung.jpg')">
+                                <span class="quote d-flex align-items-center justify-content-center">
+                                    <i class="icon-quote-left"></i>
+                                </span>
+                            </div>
+                            <div class="text">
+                                <p class="mb-4 pl-4 line">
+                                    The reading of all good books is like a conversation with the finest minds of past centuries.
+                                    Bringing you knowledge is our pleasure.
+                                </p>
+                                <p class="name">Trịnh Hoàng Hưng</p>
+                                <span class="position">CEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="user-img mb-4" style=" background-image: url('/Content/Design Images/huy.jpg')">
+                                <span class="quote d-flex align-items-center justify-content-center">
+                                    <i class="icon-quote-left"></i>
+                                </span>
+                            </div>
+                            <div class="text">
+                                <p class="mb-4 pl-4 line">
+                                    Reading is important. If you know how to read then the whole world opens up to you.
+                                </p>
+                                <p class="name">Huy Trần</p>
+                                <span class="position">Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="user-img mb-4" style=" background-image: url('/Content/Design Images/kha.jpg')">
+                                <span class="quote d-flex align-items-center justify-content-center">
+                                    <i class="icon-quote-left"></i>
+                                </span>
+                            </div>
+                            <div class="text">
+                                <p class="mb-4 pl-4 line">
+                                    Good books, like good friends, are few and chosen; the more select, the more enjoyable.
+                                </p>
+                                <p class="name">Từ Văn Khả</p>
+                                <span class="position">Maketing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap">
+                            <div class="user-img mb-4" style="background-image: url('/Content/Design Images/an.jpg')">
+                                <span class="quote d-flex align-items-center justify-content-center">
+                                    <i class="icon-quote-left"></i>
+                                </span>
+                            </div>
+                            <div class="text">
+                                <p class="mb-4 pl-4 line">
+                                    A good book on your shelf is a friend that turns its back on you and remains a friend.
+                                </p>
+                                <p class="name">An</p>
+                                <span class="position">Content Writer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

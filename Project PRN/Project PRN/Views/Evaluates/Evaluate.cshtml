@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "Evaluate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script>
+        new Vue({
+            el: '#detail',
+            data: {
+                product: {}
+            },
+            mounted: function () {
+                axios.get('/Products/ProductDetailJson', {
+                    params: {
+                        productID: '@ViewData["productID"]'
+                    }
+                })
+                    .then(response => {
+                        console.log(response.data);
+                        this.product = response.data;
+                        console.log(this.product);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    })
+            }
+        })
+    </script>
+    <script src="~/Scripts/rate.js"></script>
+}
+
+<div class="hero-wrap hero-bread" style="background-image: url('/Content/Design Images/bg_6.jpg');">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 text-center">
+                <h1 class="mb-0 bread">EVALUATE</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ftco-section contact-section bg-light">
+    <div id="detail" class="container">
+        <div class="row block-9">
+            <div class="col-md-6 order-md-last d-flex">
+                <form action="Create" method="post" class="bg-white p-5 contact-form">
+                    @Html.AntiForgeryToken()
+                    <input name="productID" value="@ViewData["productID"]" type="hidden" />
+                    <div class="rating">
+                        <h3>Rate: </h3>
+                        <div>
+                            <div id="rate" class="rating d-flex">
+                                <div data-score="1" class="ion-ios-star-outline evaluate-rate"></div>
+                                <div data-score="2" class="ion-ios-star-outline evaluate-rate"></div>
+                                <div data-score="3" class="ion-ios-star-outline evaluate-rate"></div>
+                                <div data-score="4" class="ion-ios-star-outline evaluate-rate"></div>
+                                <div data-score="5" class="ion-ios-star-outline evaluate-rate"></div>
+                            </div>
+                        </div>
+                        <input type="hidden" id="result" name="rate">
+                        <h4 id="result_DP">Rank: </h4>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="evaluateContent" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-lg-6 mb-5 text-right">
+                        <a href="images/product-1.png" class="image-popup prod-img-bg">
+                            <img v-bind:src="product.image"
+                                 class="img-fluid" alt="Colorlib Template">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 product-details pl-md-5">
+                        <h3>{{product.title}}</h3>
+                        <div class="rating d-flex">
+                            <p class="text-left mr-4">
+                                <a href="#" class="mr-2">5.0</a>
+                                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                                <a href="#"><span class="ion-ios-star-outline"></span></a>
+                            </p>
+                            <p class="text-left mr-4">
+                                <a href="#" class="mr-2" style="color: #000;">
+                                    {{product.rate}} <span style="color: #bbb;">Rating</span>
+                                </a>
+                            </p>
+                            <p class="text-left">
+                                <a href="#" class="mr-2" style="color: #000;">{{product.sold}} <span style="color: #bbb;">Sold</span></a>
+                            </p>
+                        </div>
+                        <p class="price"><span>${{product.price}}</span></p>
+                        <p>
+                            {{product.shortDescription}}
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section> 

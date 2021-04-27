@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IdGen</name>
+    </assembly>
+    <members>
+        <member name="T:IdGen.DefaultTimeSource">
+            <summary>
+            Provides time data to an <see cref="T:IdGen.IdGenerator"/>.
+            </summary>
+            <remarks>
+            Unless specified the default duration of a tick for a <see cref="T:IdGen.DefaultTimeSource"/> is 1 millisecond.
+            </remarks>
+        </member>
+        <member name="M:IdGen.DefaultTimeSource.#ctor(System.DateTimeOffset)">
+            <summary>
+            Initializes a new <see cref="T:IdGen.DefaultTimeSource"/> object.
+            </summary>
+            <param name="epoch">The epoch to use as an offset from now.</param>
+            <remarks>The default tickduration is 1 millisecond.</remarks>
+        </member>
+        <member name="M:IdGen.DefaultTimeSource.#ctor(System.DateTimeOffset,System.TimeSpan)">
+            <summary>
+            Initializes a new <see cref="T:IdGen.DefaultTimeSource"/> object.
+            </summary>
+            <param name="epoch">The epoch to use as an offset from now,</param>
+            <param name="tickDuration">The duration of a tick for this timesource.</param>
+        </member>
+        <member name="M:IdGen.DefaultTimeSource.GetTicks">
+            <summary>
+            Returns the current number of ticks for the <see cref="T:IdGen.DefaultTimeSource"/>.
+            </summary>
+            <returns>The current number of ticks to be used by an <see cref="T:IdGen.IdGenerator"/> when creating an Id.</returns>
+            <remarks>
+            Note that a 'tick' is a period defined by the timesource; this may be any valid <see cref="T:System.TimeSpan"/>; be
+            it a millisecond, an hour, 2.5 seconds or any other value.
+            </remarks>
+        </member>
+        <member name="T:IdGen.Id">
+            <summary>
+            Holds information about a decoded id.
+            </summary>
+        </member>
+        <member name="P:IdGen.Id.SequenceNumber">
+            <summary>
+            Gets the sequence number of the id.
+            </summary>
+        </member>
+        <member name="P:IdGen.Id.GeneratorId">
+            <summary>
+            Gets the generator id of the generator that generated the id.
+            </summary>
+        </member>
+        <member name="P:IdGen.Id.DateTimeOffset">
+            <summary>
+            Gets the date/time when the id was generated.
+            </summary>
+        </member>
+        <member name="M:IdGen.Id.#ctor(System.Int32,System.Int32,System.DateTimeOffset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.Id"/> struct.
+            </summary>
+            <param name="sequenceNumber">The sequence number of the id.</param>
+            <param name="generatorId">The generator id of the generator that generated the id.</param>
+            <param name="dateTimeOffset">The date/time when the id was generated.</param>
+            <returns></returns>
+        </member>
+        <member name="M:IdGen.Id.Equals(System.Object)">
+            <summary>
+            Returns a value that indicates whether this instance is equal to a specified object.
+            </summary>
+            <param name="obj">The object to compare with this instance.</param>
+            <returns>true if <paramref name="obj"/> is a <see cref="T:IdGen.Id"/> that has the same value as this instance; otherwise, false.</returns>
+        </member>
+        <member name="M:IdGen.Id.GetHashCode">
+            <summary>
+            Returns the hash code for this instance.
+            </summary>
+            <returns>The hash code for this instance.</returns>
+        </member>
+        <member name="M:IdGen.Id.op_Equality(IdGen.Id,IdGen.Id)">
+            <summary>
+            Indicates whether the values of two specified <see cref="T:IdGen.Id"/> objects are equal.
+            </summary>
+            <param name="left">The first object to compare.</param>
+            <param name="right">The second object to compare.</param>
+            <returns>true if left and right are equal; otherwise, false.</returns>
+        </member>
+        <member name="M:IdGen.Id.op_Inequality(IdGen.Id,IdGen.Id)">
+            <summary>
+            Indicates whether the values of two specified <see cref="T:IdGen.Id"/> objects are not equal.
+            </summary>
+            <param name="left">The first object to compare.</param>
+            <param name="right">The second object to compare.</param>
+            <returns>true if left and right are not equal; otherwise, false.</returns>
+        </member>
+        <member name="M:IdGen.Id.Equals(IdGen.Id)">
+            <summary>
+            Returns a value indicating whether this instance and a specified <see cref="T:IdGen.Id"/> object represent the same value.
+            </summary>
+            <param name="other">An <see cref="T:IdGen.Id"/> to compare to this instance.</param>
+            <returns>true if <paramref name="other"/> is equal to this instance; otherwise, false.</returns>
+        </member>
+        <member name="T:IdGen.IdGenerator">
+            <summary>
+            Generates Id's inspired by Twitter's (late) Snowflake project.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdGenerator.Options">
+            <summary>
+            Gets the <see cref="T:IdGen.IdGeneratorOptions"/>.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdGenerator.Id">
+            <summary>
+            Gets the Id of the generator.
+            </summary>
+        </member>
+        <member name="M:IdGen.IdGenerator.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.IdGenerator"/> class.
+            </summary>
+            <param name="generatorId">The Id of the generator.</param>
+        </member>
+        <member name="M:IdGen.IdGenerator.#ctor(System.Int32,IdGen.IdGeneratorOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.IdGenerator"/> class with the specified <see cref="T:IdGen.IdGeneratorOptions"/>.
+            </summary>
+            <param name="generatorId">The Id of the generator.</param>
+            <param name="options">The <see cref="T:IdGen.IdGeneratorOptions"/> for the <see cref="T:IdGen.IdGenerator"/></param>.
+            <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="options"/> is null.</exception>
+        </member>
+        <member name="M:IdGen.IdGenerator.CreateId">
+            <summary>
+            Creates a new Id.
+            </summary>
+            <returns>Returns an Id based on the <see cref="T:IdGen.IdGenerator"/>'s epoch, generatorid and sequence.</returns>
+            <exception cref="T:IdGen.InvalidSystemClockException">Thrown when clock going backwards is detected.</exception>
+            <exception cref="T:IdGen.SequenceOverflowException">Thrown when sequence overflows.</exception>
+            <remarks>Note that this method MAY throw an one of the documented exceptions.</remarks>
+        </member>
+        <member name="M:IdGen.IdGenerator.TryCreateId(System.Int64@)">
+            <summary>
+            Attempts to a new Id. A return value indicates whether the operation succeeded.
+            </summary>
+            <param name="id">
+            When this method returns, contains the generated Id if the method succeeded. If the method failed, as
+            indicated by the return value, no guarantees can be made about the id. This parameter is passed uninitialized;
+            any value originally supplied in result will be overwritten.
+            </param>
+            <returns>true if an Id was generated successfully; false otherwise.</returns>
+            <remarks>This method will not throw exceptions but rather indicate success by the return value.</remarks>
+        </member>
+        <member name="M:IdGen.IdGenerator.CreateIdImpl(System.Exception@)">
+            <summary>
+            Creates a new Id.
+            </summary>
+            <param name="exception">If any exceptions occur they will be returned in this argument.</param>
+            <returns>
+            Returns an Id based on the <see cref="T:IdGen.IdGenerator"/>'s epoch, generatorid and sequence or
+            a negative value when an exception occurred.
+            </returns>
+            <exception cref="T:IdGen.InvalidSystemClockException">Thrown when clock going backwards is detected.</exception>
+            <exception cref="T:IdGen.SequenceOverflowException">Thrown when sequence overflows.</exception>
+        </member>
+        <member name="M:IdGen.IdGenerator.FromId(System.Int64)">
+            <summary>
+            Returns information about an Id such as the sequence number, generator id and date/time the Id was generated
+            based on the current <see cref="T:IdGen.IdStructure"/> of the generator.
+            </summary>
+            <param name="id">The Id to extract information from.</param>
+            <returns>Returns an <see cref="T:IdGen.Id" /> that contains information about the 'decoded' Id.</returns>
+            <remarks>
+            IMPORTANT: note that this method relies on the <see cref="T:IdGen.IdStructure"/> and timesource; if the id was
+            generated with a diffferent IdStructure and/or timesource than the current one the 'decoded' ID will NOT
+            contain correct information.
+            </remarks>
+        </member>
+        <member name="M:IdGen.IdGenerator.GetTicks">
+            <summary>
+            Gets the number of ticks since the <see cref="T:IdGen.ITimeSource"/>'s epoch.
+            </summary>
+            <returns>Returns the number of ticks since the <see cref="T:IdGen.ITimeSource"/>'s epoch.</returns>
+        </member>
+        <member name="M:IdGen.IdGenerator.GetMask(System.Byte)">
+            <summary>
+            Returns a bitmask masking out the desired number of bits; a bitmask of 2 returns 000...000011, a bitmask of
+            5 returns 000...011111.
+            </summary>
+            <param name="bits">The number of bits to mask.</param>
+            <returns>Returns the desired bitmask.</returns>
+        </member>
+        <member name="M:IdGen.IdGenerator.IdStream">
+            <summary>
+            Returns a 'never ending' stream of Id's.
+            </summary>
+            <returns>A 'never ending' stream of Id's.</returns>
+        </member>
+        <member name="M:IdGen.IdGenerator.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates over Id's.
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerator`1"/> object that can be used to iterate over Id's.</returns>
+        </member>
+        <member name="M:IdGen.IdGenerator.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates over Id's.
+            </summary>
+            <returns>An <see cref="T:System.Collections.IEnumerator"/> object that can be used to iterate over Id's.</returns>
+        </member>
+        <member name="T:IdGen.IdGeneratorOptions">
+            <summary>
+            Represents the options an <see cref="T:IdGen.IdGenerator"/> can be configured with.
+            </summary>
+        </member>
+        <member name="F:IdGen.IdGeneratorOptions.DefaultEpoch">
+            <summary>
+            Returns the default epoch.
+            </summary>
+        </member>
+        <member name="F:IdGen.IdGeneratorOptions.Default">
+            <summary>
+            Returns a default instance of <see cref="T:IdGen.IdGeneratorOptions"/>.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdGeneratorOptions.IdStructure">
+            <summary>
+            Gets the <see cref="P:IdGen.IdGeneratorOptions.IdStructure"/> of the generated ID's
+            </summary>
+        </member>
+        <member name="P:IdGen.IdGeneratorOptions.TimeSource">
+            <summary>
+            Gets the <see cref="T:IdGen.ITimeSource"/> to use when generating ID's.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdGeneratorOptions.SequenceOverflowStrategy">
+            <summary>
+            Gets the <see cref="P:IdGen.IdGeneratorOptions.SequenceOverflowStrategy"/> to use when generating ID's.
+            </summary>
+        </member>
+        <member name="M:IdGen.IdGeneratorOptions.#ctor(IdGen.IdStructure,IdGen.ITimeSource,IdGen.SequenceOverflowStrategy)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.IdGeneratorOptions"/> class.
+            </summary>
+            <param name="idStructure">The <see cref="P:IdGen.IdGeneratorOptions.IdStructure"/> for ID's to be generated.</param>
+            <param name="timeSource">The <see cref="T:IdGen.ITimeSource"/> to use when generating ID's.</param>
+            <param name="sequenceOverflowStrategy">The <see cref="P:IdGen.IdGeneratorOptions.SequenceOverflowStrategy"/> to use when generating ID's.</param>
+        </member>
+        <member name="T:IdGen.IdStructure">
+            <summary>
+            Specifies the number of bits to use for the different parts of an Id for an <see cref="T:IdGen.IdGenerator"/>.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdStructure.TimestampBits">
+            <summary>
+            Gets number of bits to use for the timestamp part of the Id's to generate.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdStructure.GeneratorIdBits">
+            <summary>
+            Gets number of bits to use for the generator-id part of the Id's to generate.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdStructure.SequenceBits">
+            <summary>
+            Gets number of bits to use for the sequence part of the Id's to generate.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdStructure.MaxIntervals">
+            <summary>
+            Returns the maximum number of intervals for this <see cref="T:IdGen.IdStructure"/> configuration.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdStructure.MaxGenerators">
+            <summary>
+            Returns the maximum number of generators available for this <see cref="T:IdGen.IdStructure"/> configuration.
+            </summary>
+        </member>
+        <member name="P:IdGen.IdStructure.MaxSequenceIds">
+            <summary>
+            Returns the maximum number of sequential Id's for a time-interval (e.g. max. number of Id's generated 
+            within a single interval).
+            </summary>
+        </member>
+        <member name="P:IdGen.IdStructure.Default">
+            <summary>
+            Gets a default <see cref="T:IdGen.IdStructure"/> with 41 bits for the timestamp part, 10 bits for the generator-id 
+            part and 12 bits for the sequence part of the id.
+            </summary>
+        </member>
+        <member name="M:IdGen.IdStructure.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Initializes an <see cref="T:IdGen.IdStructure"/> for <see cref="T:IdGen.IdGenerator"/>s.
+            </summary>
+            <param name="timestampBits">Number of bits to use for the timestamp-part of Id's.</param>
+            <param name="generatorIdBits">Number of bits to use for the generator-id of Id's.</param>
+            <param name="sequenceBits">Number of bits to use for the sequence-part of Id's.</param>
+        </member>
+        <member name="M:IdGen.IdStructure.WraparoundDate(System.DateTimeOffset,IdGen.ITimeSource)">
+            <summary>
+            Calculates the last date for an Id before a 'wrap around' will occur in the timestamp-part of an Id for the
+            given <see cref="T:IdGen.IdStructure"/>.
+            </summary>
+            <param name="epoch">The used epoch for the <see cref="T:IdGen.IdGenerator"/> to use as offset.</param>'
+            <param name="timeSource">The used <see cref="T:IdGen.ITimeSource"/> for the <see cref="T:IdGen.IdGenerator"/>.</param>
+            <returns>The last date for an Id before a 'wrap around' will occur in the timestamp-part of an Id.</returns>
+            <remarks>
+            Please note that for dates exceeding the <see cref="F:System.DateTimeOffset.MaxValue"/> an
+            <see cref="T:System.ArgumentOutOfRangeException"/> will be thrown.
+            </remarks>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when any combination of a <see cref="P:IdGen.ITimeSource.TickDuration"/> and <see cref="P:IdGen.IdStructure.MaxIntervals"/> 
+            results in a date exceeding the <see cref="F:System.TimeSpan.MaxValue"/> value.
+            </exception>
+        </member>
+        <member name="M:IdGen.IdStructure.WraparoundInterval(IdGen.ITimeSource)">
+            <summary>
+            Calculates the interval at wich a 'wrap around' will occur in the timestamp-part of an Id for the given
+            <see cref="T:IdGen.IdStructure"/>.
+            </summary>
+            <param name="timeSource">The used <see cref="T:IdGen.ITimeSource"/> for the <see cref="T:IdGen.IdGenerator"/>.</param>
+            <returns>
+            The interval at wich a 'wrap around' will occur in the timestamp-part of an Id for the given
+            <see cref="T:IdGen.IdStructure"/>.
+            </returns>
+            <remarks>
+            Please note that for intervals exceeding the <see cref="F:System.TimeSpan.MaxValue"/> an
+            <see cref="T:System.OverflowException"/> will be thrown.
+            </remarks>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="timeSource"/> is null.
+            </exception>
+            <exception cref="T:System.OverflowException">
+            Thrown when any combination of a <see cref="P:IdGen.ITimeSource.TickDuration"/> and <see cref="P:IdGen.IdStructure.MaxIntervals"/> 
+            results in a TimeSpan exceeding the <see cref="F:System.TimeSpan.MaxValue"/> value.
+            </exception>
+        </member>
+        <member name="T:IdGen.IIdGenerator`1">
+            <summary>
+            Provides the interface for Id-generators.
+            </summary>
+            <typeparam name="T">The type for the generated ID's.</typeparam>
+        </member>
+        <member name="M:IdGen.IIdGenerator`1.CreateId">
+            <summary>
+            Creates a new Id.
+            </summary>
+            <returns>Returns an Id.</returns>
+        </member>
+        <member name="T:IdGen.InvalidSystemClockException">
+            <summary>
+            The exception that is thrown when a clock going backwards is detected.
+            </summary>
+        </member>
+        <member name="M:IdGen.InvalidSystemClockException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.InvalidSystemClockException"/> class.
+            </summary>
+        </member>
+        <member name="M:IdGen.InvalidSystemClockException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.InvalidSystemClockException"/> class with a message that describes the error.
+            </summary>
+            <param name="message">
+            The message that describes the exception. The caller of this constructor is required to ensure that this 
+            string has been localized for the current system culture.
+            </param>
+        </member>
+        <member name="M:IdGen.InvalidSystemClockException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.InvalidSystemClockException"/> class with a message that describes
+            the error and underlying exception.
+            </summary>
+            <param name="message">
+            The message that describes the exception. The caller of this constructor is required to ensure that this 
+            string has been localized for the current system culture.
+            </param>
+            <param name="innerException">
+            The exception that is the cause of the current <see cref="T:IdGen.InvalidSystemClockException"/>. If the
+            innerException parameter is not null, the current exception is raised in a catch block that handles the
+            inner exception.
+            </param>
+        </member>
+        <member name="T:IdGen.ITimeSource">
+            <summary>
+            Provides the interface for timesources that provide time information to <see cref="T:IdGen.IdGenerator"/>s.
+            </summary>
+        </member>
+        <member name="P:IdGen.ITimeSource.Epoch">
+            <summary>
+            Gets the epoch of the <see cref="T:IdGen.ITimeSource"/>.
+            </summary>
+        </member>
+        <member name="P:IdGen.ITimeSource.TickDuration">
+            <summary>
+            Returns the duration of a single tick.
+            </summary>
+            <remarks>
+            It's up to the <see cref="T:IdGen.ITimeSource"/> to define what a 'tick' is; it may be nanoseconds, milliseconds,
+            seconds or even days or years.
+            </remarks>
+        </member>
+        <member name="M:IdGen.ITimeSource.GetTicks">
+            <summary>
+            Returns the current number of ticks for the <see cref="T:IdGen.ITimeSource"/>.
+            </summary>
+            <returns>The current number of ticks to be used by an <see cref="T:IdGen.IdGenerator"/> when creating an Id.</returns>
+            <remarks>
+            It's up to the <see cref="T:IdGen.ITimeSource"/> to define what a 'tick' is; it may be nanoseconds, milliseconds,
+            seconds or even days or years.
+            </remarks>
+        </member>
+        <member name="T:IdGen.SequenceOverflowException">
+            <summary>
+            The exception that is thrown when a sequence overflows (e.g. too many Id's generated within the same timespan (ms)).
+            </summary>
+        </member>
+        <member name="M:IdGen.SequenceOverflowException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.SequenceOverflowException"/> class.
+            </summary>
+        </member>
+        <member name="M:IdGen.SequenceOverflowException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.SequenceOverflowException"/> class with a message that describes the error.
+            </summary>
+            <param name="message">
+            The message that describes the exception. The caller of this constructor is required to ensure that this 
+            string has been localized for the current system culture.
+            </param>
+        </member>
+        <member name="M:IdGen.SequenceOverflowException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:IdGen.SequenceOverflowException"/> class with a message that describes
+            the error and underlying exception.
+            </summary>
+            <param name="message">
+            The message that describes the exception. The caller of this constructor is required to ensure that this 
+            string has been localized for the current system culture.
+            </param>
+            <param name="innerException">
+            The exception that is the cause of the current <see cref="T:IdGen.SequenceOverflowException"/>. If the
+            innerException parameter is not null, the current exception is raised in a catch block that handles the
+            inner exception.
+            </param>
+        </member>
+        <member name="T:IdGen.SequenceOverflowStrategy">
+            <summary>
+            Specifies the strategy to use when a sequence overflow occurs during generation of an ID.
+            </summary>
+        </member>
+        <member name="F:IdGen.SequenceOverflowStrategy.Throw">
+            <summary>
+            Throw a <see cref="T:IdGen.SequenceOverflowException"/> on sequence overflow.
+            </summary>
+        </member>
+        <member name="F:IdGen.SequenceOverflowStrategy.SpinWait">
+            <summary>
+            Wait, using a <see cref="T:System.Threading.SpinWait"/>, for the tick te pass before generating a new ID.
+            </summary>
+        </member>
+        <member name="T:IdGen.StopwatchTimeSource">
+            <summary>
+            Provides time data to an <see cref="T:IdGen.IdGenerator"/>. This timesource uses a <see cref="T:System.Diagnostics.Stopwatch"/> for timekeeping.
+            </summary>
+        </member>
+        <member name="P:IdGen.StopwatchTimeSource.Epoch">
+            <summary>
+            Gets the epoch of the <see cref="T:IdGen.ITimeSource"/>.
+            </summary>
+        </member>
+        <member name="P:IdGen.StopwatchTimeSource.Elapsed">
+            <summary>
+            Gets the elapsed time since this <see cref="T:IdGen.ITimeSource"/> was initialized.
+            </summary>
+        </member>
+        <member name="P:IdGen.StopwatchTimeSource.Offset">
+            <summary>
+            Gets the offset for this <see cref="T:IdGen.ITimeSource"/> which is defined as the difference of it's creationdate
+            and it's epoch which is specified in the object's constructor.
+            </summary>
+        </member>
+        <member name="M:IdGen.StopwatchTimeSource.#ctor(System.DateTimeOffset,System.TimeSpan)">
+            <summary>
+            Initializes a new <see cref="T:IdGen.StopwatchTimeSource"/> object.
+            </summary>
+            <param name="epoch">The epoch to use as an offset from now,</param>
+            <param name="tickDuration">The duration of a single tick for this timesource.</param>
+        </member>
+        <member name="P:IdGen.StopwatchTimeSource.TickDuration">
+            <summary>
+            Returns the duration of a single tick.
+            </summary>
+        </member>
+        <member name="M:IdGen.StopwatchTimeSource.GetTicks">
+            <summary>
+            Returns the current number of ticks for the <see cref="T:IdGen.DefaultTimeSource"/>.
+            </summary>
+            <returns>The current number of ticks to be used by an <see cref="T:IdGen.IdGenerator"/> when creating an Id.</returns>
+        </member>
+    </members>
+</doc>

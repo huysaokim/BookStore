@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectPRNModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="role" Type="Int32" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="phoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Bills" Relationship="Self.FK__Bill__userid__403A8C7D" FromRole="Account" ToRole="Bill" />
+    <NavigationProperty Name="Carts" Relationship="Self.FK__Cart__userid__4222D4EF" FromRole="Account" ToRole="Cart" />
+    <NavigationProperty Name="Contacts" Relationship="Self.FK__Contact__userid__4316F928" FromRole="Account" ToRole="Contact" />
+    <NavigationProperty Name="Evaluates" Relationship="Self.FK__Evaluate__userID__44FF419A" FromRole="Account" ToRole="Evaluate" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Product__userID__46E78A0C" FromRole="Account" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="categoriesID" />
+    </Key>
+    <Property Name="categoriesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="categoriesName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Product__categor__45F365D3" FromRole="Categories" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Evaluate">
+    <Key>
+      <PropertyRef Name="evaluateID" />
+    </Key>
+    <Property Name="evaluateID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="evaluateContent" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rate" Type="Int32" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="userID" Type="Int32" Nullable="false" />
+    <Property Name="productID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Evaluate__userID__44FF419A" FromRole="Evaluate" ToRole="Account" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Evaluate__produc__440B1D61" FromRole="Evaluate" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="productID" />
+    </Key>
+    <Property Name="productID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="author" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="shortDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="sold" Type="Int32" Nullable="false" />
+    <Property Name="postTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="categoriesID" Type="Int32" Nullable="false" />
+    <Property Name="userID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Product__userID__46E78A0C" FromRole="Product" ToRole="Account" />
+    <NavigationProperty Name="Category" Relationship="Self.FK__Product__categor__45F365D3" FromRole="Product" ToRole="Categories" />
+    <NavigationProperty Name="Evaluates" Relationship="Self.FK__Evaluate__produc__440B1D61" FromRole="Product" ToRole="Evaluate" />
+    <NavigationProperty Name="Bills" Relationship="Self.FK__Bill__productid__3F466844" FromRole="Product" ToRole="Bill" />
+    <NavigationProperty Name="Carts" Relationship="Self.FK__Cart__productid__412EB0B6" FromRole="Product" ToRole="Cart" />
+  </EntityType>
+  <EntityType Name="Bill">
+    <Key>
+      <PropertyRef Name="BillID" />
+      <PropertyRef Name="userName" />
+      <PropertyRef Name="address" />
+      <PropertyRef Name="phoneNumber" />
+      <PropertyRef Name="email" />
+      <PropertyRef Name="orderTime" />
+      <PropertyRef Name="payment" />
+      <PropertyRef Name="productid" />
+      <PropertyRef Name="quantity" />
+      <PropertyRef Name="status" />
+    </Key>
+    <Property Name="BillID" Type="Int64" Nullable="false" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="phoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="orderTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="payment" Type="Int32" Nullable="false" />
+    <Property Name="userid" Type="Int32" />
+    <Property Name="productid" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Bill__userid__403A8C7D" FromRole="Bill" ToRole="Account" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Bill__productid__3F466844" FromRole="Bill" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Cart">
+    <Key>
+      <PropertyRef Name="productid" />
+      <PropertyRef Name="quantity" />
+    </Key>
+    <Property Name="userid" Type="Int32" />
+    <Property Name="productid" Type="Int32" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Cart__userid__4222D4EF" FromRole="Cart" ToRole="Account" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Cart__productid__412EB0B6" FromRole="Cart" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="userid" />
+      <PropertyRef Name="username" />
+      <PropertyRef Name="email" />
+      <PropertyRef Name="content" />
+      <PropertyRef Name="date" />
+    </Key>
+    <Property Name="userid" Type="Int32" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="1" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Contact__userid__4316F928" FromRole="Contact" ToRole="Account" />
+  </EntityType>
+  <Association Name="FK__Bill__userid__403A8C7D">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cart__userid__4222D4EF">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Cart">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contact__userid__4316F928">
+    <End Role="Account" Type="Self.Account" Multiplicity="1" />
+    <End Role="Contact" Type="Self.Contact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Contact">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Evaluate__userID__44FF419A">
+    <End Role="Account" Type="Self.Account" Multiplicity="1" />
+    <End Role="Evaluate" Type="Self.Evaluate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Evaluate">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__userID__46E78A0C">
+    <End Role="Account" Type="Self.Account" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__categor__45F365D3">
+    <End Role="Categories" Type="Self.Category" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="categoriesID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="categoriesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Evaluate__produc__440B1D61">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Evaluate" Type="Self.Evaluate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="Evaluate">
+        <PropertyRef Name="productID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bill__productid__3F466844">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="productid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cart__productid__412EB0B6">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="productID" />
+      </Principal>
+      <Dependent Role="Cart">
+        <PropertyRef Name="productid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectPRNEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Evaluates" EntityType="Self.Evaluate" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Bills" EntityType="Self.Bill" />
+    <EntitySet Name="Carts" EntityType="Self.Cart" />
+    <EntitySet Name="Contacts" EntityType="Self.Contact" />
+    <AssociationSet Name="FK__Bill__userid__403A8C7D" Association="Self.FK__Bill__userid__403A8C7D">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cart__userid__4222D4EF" Association="Self.FK__Cart__userid__4222D4EF">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="Cart" EntitySet="Carts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contact__userid__4316F928" Association="Self.FK__Contact__userid__4316F928">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="Contact" EntitySet="Contacts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Evaluate__userID__44FF419A" Association="Self.FK__Evaluate__userID__44FF419A">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="Evaluate" EntitySet="Evaluates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__userID__46E78A0C" Association="Self.FK__Product__userID__46E78A0C">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__categor__45F365D3" Association="Self.FK__Product__categor__45F365D3">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Evaluate__produc__440B1D61" Association="Self.FK__Evaluate__produc__440B1D61">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Evaluate" EntitySet="Evaluates" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bill__productid__3F466844" Association="Self.FK__Bill__productid__3F466844">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cart__productid__412EB0B6" Association="Self.FK__Cart__productid__412EB0B6">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Cart" EntitySet="Carts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

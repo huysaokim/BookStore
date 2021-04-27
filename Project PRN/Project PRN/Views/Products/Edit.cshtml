@@ -1,0 +1,116 @@
+﻿@{
+    ViewBag.Title = "EditProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/Scripts/axios.js"></script>
+    <script>
+        new Vue({
+            el: '#productDetail',
+            data: {
+                product: {}
+            },
+            mounted: function () {
+                axios.get('/Products/ProductDetailJson', {
+                        params: {
+                        productID: '@ViewData["productId"]'
+                    }
+                })
+                    .then(response => {
+                        this.product = response.data;
+                        console.log(this.product);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    })
+            }
+        })
+    </script>
+}
+
+<div class="hero-wrap hero-bread" style="background-image: url('/Content/Design Images/bg_6.jpg');">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <h1 class="mb-0 bread">Edit product</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ftco-section">
+    <div class="container">
+        <div id="productDetail" class="row justify-content-center">
+            <div class="col-xl-10">
+                <form action="Edit" method="post" class="billing-form" enctype="multipart/form-data">
+                    @Html.AntiForgeryToken()
+                    <h3 class="mb-4 billing-heading">Product Information</h3>
+                    <div class="row align-items-end">
+                        <input type="hidden" name="productID" value="@ViewData["productId"]" />
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="firstname">Title</label>
+                                <input readonly v-model="product.title" type="text" name="title" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="lastname">Author</label>
+                                <input readonly type="text" name="author" class="form-control" v-model="product.author">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="postcodezip">Price</label>
+                                <input type="text" name="price" class="form-control" v-model="product.price">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="postcodezip">Quantity</label>
+                                <input type="number" name="quantity" class="form-control" v-model="product.quantity">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="postcodezip">Status</label>
+                            <div class="form-group ">
+                                <div class="col-lg-12">
+                                    <div class="radio">
+                                        <input v-if="product.status == 1" class="form-check-input" type="radio" name="status" checked value="true">
+                                        <input v-else class="form-check-input" type="radio" name="status" value="true">
+                                        Instock
+                                    </div>
+                                    <div class="radio">
+                                        <input v-if="product.status == 0" class="form-check-input" type="radio" name="status" checked value="false">
+                                        <input v-else class="form-check-input" type="radio" name="status" value="false">
+                                        Outstock
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-100"></div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="phone">ShortDescription</label>
+                                <textarea class="form-control" name="shortDescription" rows="5" v-model="product.shortDescription"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="emailaddress">Description</label>
+                                <textarea class="form-control" name="description" rows="7" v-model="product.description"></textarea>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <input class="btn btn-primary py-3 px-4" type="submit" value="EDIT" />
+                    </div>
+                </form><!-- END -->
+
+
+            </div> <!-- .col-md-8 -->
+        </div>
+    </div>
+</section> <!-- .section -->

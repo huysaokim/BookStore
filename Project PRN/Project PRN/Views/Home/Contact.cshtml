@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script>
+        var app = new Vue({
+            el: '#formContact',
+            data: {
+                information: [],
+                email: '',
+                subject: '',
+                content: '',
+                errors: []
+            },
+            mounted: function () {
+                axios.get('/Accounts/GetAccountInfor')
+                    .then(response => {
+                        this.information = response.data;
+                        this.email = response.data.email;
+                        console.log(this.information);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    })
+            },
+            methods: {
+                checkInput(e) {
+                    console.log(this.email)
+                    console.log(this.subject)
+                    console.log(this.content)
+                    if (this.email != '' && this.subject != '' && this.content != '') {
+                        //sau sử dụng confirm
+                        Swal.fire({
+                            position: 'Center',
+                            icon: 'success',
+                            title: 'Send Contact Successful!',
+                            showConfirmButton: false,
+                            timer: 2000,
+                        })
+                        setTimeout(() => {
+                            console.log("Success!");
+                        }, 2000);
+                        $("contactForm").submit;
+                        
+                    } else {
+                        this.errors = [];
+
+                        if (!this.email) {
+                            this.errors.push("Email required!\n");
+                        }
+                        if (!this.subject) {
+                            this.errors.push("Subject required!\n");
+                        }
+                        if (!this.content) {
+                            this.errors.push("Message required!\n");
+                        }
+
+                        let message = '';
+
+                        for (let text of this.errors) {
+                            message += text;
+                        }
+
+                        Swal.fire({
+                            position: 'center',
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: message
+                        })
+
+                        e.preventDefault();
+                    }
+                }
+            }
+        })
+    </script>
+}
+
+<div class="hero-wrap hero-bread" style="background-image: url('/Content/Design Images/bg_6.jpg');">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <h1 class="mb-0 bread">Contact Us</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="ftco-section contact-section bg-light">
+    <div class="container">
+        <div id="formContact" class="row block-9">
+            <div class="col-md-12 order-md-last d-flex">
+                <form v-on:submit="checkInput" action="Contact" id="contactForm" method="post" class="bg-white p-5 contact-form">
+                    <span class="text-danger">@ViewBag.Message</span>
+                    @Html.AntiForgeryToken()
+                    <div class="form-group" v-for="i in information">
+                        <span>Email:</span>
+                        <input v-model="email" type="email" name="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="form-group" v-for="i in information">
+                        <span>Subject:</span>
+                        <input v-model="subject" type="text" name="subject" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <span>Message:</span>
+                        <textarea v-model="content" name="content" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Send Report" class="btn btn-primary py-3 px-5">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>

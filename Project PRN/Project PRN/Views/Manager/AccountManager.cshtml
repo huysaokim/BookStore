@@ -1,0 +1,175 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <link href="~/Content/css/jquery-ui.css" rel="stylesheet" />
+
+    <script>
+        new Vue({
+            el: '#accountList',
+            data: {
+                accounts: [],
+                totalPage: 0,
+                pageIndex: 0
+            },
+            mounted: function () {
+                axios.get('/Manager/AccountJson', {
+                    params: {
+                        page: '@ViewData["page"]',
+                    }
+                })
+                    .then(response => {
+                        this.accounts = response.data.accountList;
+                        this.totalPage = response.data.totalPage;
+                        this.pageIndex = response.data.pageIndex;
+                        console.log(this.accounts);
+                        console.log(response.data)
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    })
+            }
+        })
+    </script>
+
+    <script>
+        $('#exampleModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var userid = button.data('userid')
+            var username = button.data('username')
+            var email = button.data('email')
+            var role = button.data('role')
+            var phone = button.data('phone')
+            var address = button.data('address')
+            var wellcome;
+            if (role == 3) {
+                wellcome = ' Staff - ';
+            } else if (role == 2) {
+                wellcome = ' User - ';
+            }
+            // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            var modal = $(this)
+            modal.find('.modal-title').text('#' + userid + ' |' + wellcome + username)
+            modal.find('.modal-body #userID').val(userid)
+            modal.find('.modal-body #userName').val(username)
+            modal.find('.modal-body #email').val(email)
+            modal.find('.modal-body #role').val(role)
+            modal.find('.modal-body #phoneNumber').val(phone)
+            modal.find('.modal-body #address').val(address)
+        })
+    </script>
+}
+<div class="hero-wrap hero-bread" style="background-image: url('/Content/Design Images/bg_6.jpg');">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <h1 class="mb-0 bread">Admin Manager</h1>
+                <p class="breadcrumbs">
+                    <span class="mr-4"><a href="AdminBillManager">Bill Manager</a></span>
+                    <span class="mr-4"><a class="link-active" href="">Account Manager</a></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ftco-section">
+    <div id="accountList" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cart-list">
+                    <!-- Truong hop Search ra Bill ID chua giao hang thanh cong (Pending)-->
+                    <table class="table">
+                        <thead class="thead-primary">
+                            <tr class="text-center">
+                                <th>UserID</th>
+                                <th>Email</th>
+                                <th>Fullname</th>
+                                <th>Role</th>
+                                <th>Phone Number</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="a in accounts" class="text-center">
+                                <td class="">{{a.userID}}</td>
+                                <td class="">{{a.email}}</td>
+                                <td>{{a.userName}}</td>
+                                <td v-if="a.role == 3">Staff</td>
+                                <td v-if="a.role == 2">User</td>
+                                <td>{{a.phoneNumber}}</td>
+
+                                <td>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                                            v-bind:data-userid="a.userID" v-bind:data-username="a.userName" v-bind:data-email="a.email"
+                                            v-bind:data-role="a.role" v-bind:data-phone="a.phoneNumber" v-bind:data-address="a.address">
+                                        Edit
+                                    </button>
+                                </td>
+                            </tr><!-- END TR-->
+                        </tbody>
+                    </table>
+
+                    <!-- Edit User profile Popup -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="AdminEditProfile" method="post">
+                                        @Html.AntiForgeryToken()
+                                        <input type="text" class="form-control" name="userID" id="userID" hidden>
+
+                                        <div class="form-group">
+                                            <label for="fullname" class="col-form-label">Fullname: </label>
+                                            <input type="text" class="form-control" name="userName" id="userName" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="col-form-label">Email:</label>
+                                            <input type="email" class="form-control" name="email" id="email" required>
+                                        </div>
+                                        @*<div class="form-group">
+                                                <label for="role" class="col-form-label">Role:</label>
+                                                <input type="text" class="form-control" id="role">
+                                            </div>*@
+                                        <div class="form-group">
+                                            <label for="phone" class="col-form-label">Phone-number:</label>
+                                            <input type="text" class="form-control" name="phoneNumber" id="phoneNumber" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address" class="col-form-label">Address:</label>
+                                            <textarea type="text" class="form-control" name="address" id="address" required></textarea>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-primary">Update</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------------------------------------->
+                    <div v-if="totalPage > 0" class="row mt-5">
+                        <div class="col text-center">
+                            <div class="block-27">
+                                <ul>
+                                    <li v-for="n in totalPage" :class="{active: n == pageIndex}"><span><a v-bind:href="'/Manager/AccountManager?page='+n">{{n}}</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

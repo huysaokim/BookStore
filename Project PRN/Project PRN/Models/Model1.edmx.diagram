@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e8a61c1ed127451096eaba137064c185" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjectPRNModel.Account" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectPRNModel.Category" Width="1.5" PointX="3.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectPRNModel.Evaluate" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectPRNModel.Product" Width="1.5" PointX="6" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectPRNModel.Bill" Width="1.5" PointX="8.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectPRNModel.Cart" Width="1.5" PointX="11.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectPRNModel.Contact" Width="1.5" PointX="3.25" PointY="13.5" IsExpanded="true" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Bill__userid__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Cart__userid__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Contact__userid__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Evaluate__userID__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Product__userID__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Product__categor__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Evaluate__produc__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Bill__productid__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectPRNModel.FK__Cart__productid__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

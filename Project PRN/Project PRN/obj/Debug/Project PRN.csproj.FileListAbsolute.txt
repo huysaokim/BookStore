@@ -1,0 +1,654 @@
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Project PRN.dll.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Project PRN.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Project PRN.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\csc.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\csc.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\csc.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\csi.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\csi.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\csi.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.AppContext.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Console.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Http.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.ValueTuple.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\vbc.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Helpers.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Mvc.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Optimization.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Razor.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.WebPages.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\WebGrease.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Helpers.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Mvc.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Optimization.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.Razor.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.WebPages.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CoreCompileInputs.cache
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CopyComplete
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\obj\Debug\Project PRN.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\obj\Debug\Project PRN.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csprojAssemblyReference.cache
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\BCrypt.Net.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\IdGen.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\BCrypt.Net.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\BCrypt.Net.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\IdGen.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\EntityFramework.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\EntityFramework.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll.config
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Project PRN.pdb
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\IdGen.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\WebGrease.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.pdb
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\IdGen.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.pdb
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csprojAssemblyReference.cache
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CoreCompileInputs.cache
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CopyComplete
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.pdb
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe.config
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.rsp
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe.config
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.rsp
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.AppContext.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Console.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Http.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.ValueTuple.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe.config
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.rsp
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\PagedList.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.dll
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\PagedList.xml
+C:\Users\tvhtr\OneDrive\Máy tính\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll.config
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Project PRN.pdb
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe.config
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.rsp
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe.config
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.rsp
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.AppContext.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Collections.Immutable.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Console.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Globalization.Calendars.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Http.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Sockets.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Reflection.Metadata.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.ValueTuple.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe.config
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.rsp
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe.config
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\IdGen.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Microsoft.Web.Infrastructure.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\PagedList.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\WebGrease.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.pdb
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\IdGen.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\PagedList.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.pdb
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csprojAssemblyReference.cache
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CoreCompileInputs.cache
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CopyComplete
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.dll
+G:\Data\GitHub Clone\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.pdb
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll.config
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Project PRN.pdb
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe.config
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.rsp
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe.config
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.rsp
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.AppContext.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Console.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Http.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.ValueTuple.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe.config
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.rsp
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\IdGen.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\PagedList.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\WebGrease.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.pdb
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\IdGen.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\PagedList.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.pdb
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CoreCompileInputs.cache
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CopyComplete
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.dll
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.pdb
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Project PRN.dll.config
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Project PRN.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Project PRN.pdb
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csc.exe
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csc.exe.config
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csc.rsp
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csi.exe
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csi.exe.config
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csi.rsp
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.AppContext.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Collections.Immutable.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Console.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Globalization.Calendars.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Net.Http.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Net.Sockets.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Reflection.Metadata.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.ValueTuple.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\vbc.exe
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\vbc.exe.config
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\vbc.rsp
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe.config
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Antlr3.Runtime.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\BCrypt.Net.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.SqlServer.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\IdGen.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Microsoft.Web.Infrastructure.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Newtonsoft.Json.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.Mvc.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Helpers.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Mvc.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Optimization.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Razor.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\WebGrease.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\BCrypt.Net.pdb
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\BCrypt.Net.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.SqlServer.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\IdGen.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.Mvc.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Helpers.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Mvc.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Optimization.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Razor.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Newtonsoft.Json.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Antlr3.Runtime.pdb
+G:\Data\GitHub-Clone\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Data\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.csprojAssemblyReference.cache
+G:\Data\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CoreCompileInputs.cache
+G:\Data\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CopyComplete
+G:\Data\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.dll
+G:\Data\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.pdb
+C:\Users\Hung Trinh\OneDrive\Desktop\TestGithub\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csprojAssemblyReference.cache
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Project PRN.dll.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Project PRN.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Project PRN.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csc.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csc.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csc.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csi.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csi.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\csi.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.AppContext.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Console.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Net.Http.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.ValueTuple.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\vbc.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\vbc.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\vbc.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Antlr3.Runtime.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\BCrypt.Net.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.SqlServer.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\IdGen.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Newtonsoft.Json.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.Mvc.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Helpers.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Mvc.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Optimization.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Razor.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\WebGrease.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\BCrypt.Net.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\BCrypt.Net.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\EntityFramework.SqlServer.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\IdGen.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\PagedList.Mvc.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Helpers.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Mvc.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Optimization.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.Razor.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Newtonsoft.Json.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Antlr3.Runtime.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.csprojAssemblyReference.cache
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CoreCompileInputs.cache
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CopyComplete
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\GitHub-Clone\Project PRN\Project PRN\obj\Debug\Project PRN.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Project PRN.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Project PRN.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\csc.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\csi.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.AppContext.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Console.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Http.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.ValueTuple.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\vbc.rsp
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\IdGen.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\PagedList.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\WebGrease.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\BCrypt.Net.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\EntityFramework.SqlServer.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\IdGen.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\PagedList.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\PagedList.Mvc.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Helpers.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Mvc.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Optimization.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.Razor.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\System.Web.WebPages.Razor.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Newtonsoft.Json.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Antlr3.Runtime.pdb
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csprojAssemblyReference.cache
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CoreCompileInputs.cache
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.csproj.CopyComplete
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.dll
+C:\Users\Minh La Anhihi\OneDrive\Máy tính\Project PRN Github\Project-PRN\Project PRN\Project PRN\obj\Debug\Project PRN.pdb
